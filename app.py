@@ -41,5 +41,4 @@ def success():
     return render_template("index.html", text="Seems like we already have your email!")
 
 if __name__ == '__main__':
-    app.debug=True
-    app.run()
+    app.run(debug=True)
